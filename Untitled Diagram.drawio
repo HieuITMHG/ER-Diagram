@@ -1,66 +1,9 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" version="28.0.9">
-  <diagram name="Page-1" id="2mnynqBxMGxwnVNIxGR0">
-    <mxGraphModel dx="1281" dy="658" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+  <diagram name="Page-1" id="tILTIZfzpC5tvvvT5SBV">
+    <mxGraphModel>
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="LqYtluovzFKUoJYPxEyo-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LqYtluovzFKUoJYPxEyo-1" target="LqYtluovzFKUoJYPxEyo-8">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="LqYtluovzFKUoJYPxEyo-1" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;Multi Camera Surveillance System&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="300" y="10" width="250" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="LqYtluovzFKUoJYPxEyo-3" value="Bắt đầu" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="40" y="60" width="60" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="LqYtluovzFKUoJYPxEyo-4" value="Có camera" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="130" y="50" width="80" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="LqYtluovzFKUoJYPxEyo-6" value="Kết thúc" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="135" y="140" width="70" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="LqYtluovzFKUoJYPxEyo-7" value="Lặp qua các cameras" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="240" y="60" width="120" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="LqYtluovzFKUoJYPxEyo-8" value="Khởi tạo và chạy các CameraWorkers" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="390" y="60" width="120" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="LqYtluovzFKUoJYPxEyo-10" value="Khởi tạo vầ chạy các luồng kết quả" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="540" y="60" width="140" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="LqYtluovzFKUoJYPxEyo-12" value="&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;(_process_batch_results)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="540" y="60" width="290" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="LqYtluovzFKUoJYPxEyo-14" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="LqYtluovzFKUoJYPxEyo-3" target="LqYtluovzFKUoJYPxEyo-4">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="400" y="270" as="sourcePoint" />
-            <mxPoint x="450" y="220" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="LqYtluovzFKUoJYPxEyo-17" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="LqYtluovzFKUoJYPxEyo-4" target="LqYtluovzFKUoJYPxEyo-6">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="400" y="270" as="sourcePoint" />
-            <mxPoint x="450" y="220" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="LqYtluovzFKUoJYPxEyo-18" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.667;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="LqYtluovzFKUoJYPxEyo-8" target="LqYtluovzFKUoJYPxEyo-12">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="400" y="270" as="sourcePoint" />
-            <mxPoint x="450" y="220" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="LqYtluovzFKUoJYPxEyo-19" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="LqYtluovzFKUoJYPxEyo-7" target="LqYtluovzFKUoJYPxEyo-8">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="400" y="270" as="sourcePoint" />
-            <mxPoint x="450" y="220" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="LqYtluovzFKUoJYPxEyo-20" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="LqYtluovzFKUoJYPxEyo-4" target="LqYtluovzFKUoJYPxEyo-7">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="400" y="270" as="sourcePoint" />
-            <mxPoint x="450" y="220" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
